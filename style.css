@@ -97,3 +97,32 @@
     font-size: 20px;
     color: #1F2937;
 }
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .hero{
+    padding: 150px 0;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote .hero .quote-words{
+    font-size: 38px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .hero .quote-person{    
+    font-size: 24px;  
+    font-weight: bold;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+}
