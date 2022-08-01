@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header, .upper{
+.header, .upper, .footer{
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 10px 5px;
@@ -154,4 +154,13 @@
 
 .action .hero .action-button button{
     border: 3px solid white;
+}
+
+.footer .hero{
+    padding: 20px 0;
+}
+
+.footer .hero .copyright{
+    font-size: 24px;
+    margin: 0 auto;
 }
