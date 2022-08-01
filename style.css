@@ -44,11 +44,13 @@
     cursor: pointer;
 }
 .upper .hero .image{
-    padding: 100px 200px;
+    padding: 150px 300px;
     color: #F9FAF8;
-    background-color: #6d747d;
+    /* background-color: #6d747d; */
+    background-image: url('images/upper.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
 }
-
 
 .header .logo{
     font-size: 24px;  
@@ -99,6 +101,31 @@
     border: 5px solid #3882F6;
     border-radius: 12px;
 }
+
+.card .card-image.milktea{
+    background-image: url('images/milk_tea.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.card .card-image.videogames{
+    background-image: url('images/video_games.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.card .card-image.books{
+    background-image: url('images/books.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.card .card-image.food{
+    background-image: url('images/food.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
 .card .card-info{
     width: 200px;
     font-size: 20px;
